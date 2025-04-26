@@ -1,3 +1,5 @@
+# tcp server can be used when writing command shells or crafting a proxy
+
 import socket
 import threading
 

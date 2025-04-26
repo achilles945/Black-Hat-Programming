@@ -1,3 +1,6 @@
+# netcat can be used to read and write data accross the network
+# execute remote commands, pass file back and forth, open a remote shell
+
 import argparse
 import socket
 import shlex

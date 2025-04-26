@@ -1,3 +1,7 @@
+# tcp proxy can be used for 
+# forwarding traffic to bounce from host to host
+# assessing network-based software
+
 import sys
 import socket
 import threading
