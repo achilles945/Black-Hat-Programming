@@ -48,7 +48,11 @@
 
 ### Github Command and Control
 
-- 
+- Setting up Github account and repository
+- Creating modules
+- Configuring Trojan
+- Building GitHub-Aware Trojan
+- Python's import Functionality
 
 ## Directory Structure
 
@@ -84,4 +88,11 @@
     - wordpress-killer.py
 
 - github command and control
-    - 
+    - bhptrojan
+        - config
+            - abc.json
+        - data
+        - modules
+            - dirlister.py
+            - environment.py
+    - git-trojan.py
