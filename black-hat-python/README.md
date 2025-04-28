@@ -82,6 +82,19 @@
     - we also want to make sure that if we pull in a dependancy
     - Python allows us to customize how it imports modules; if it can't find a module locally, it will call an import class we define, which will allow us to remotely retrieve the library from out repo
 
+### trojaning task on windows
+
+- Common tasks for trojan after deployment
+    - performing tasks on windows systems
+    - grabing keystrokes
+    - take screenshots
+    - execute shellcode to provide interactive session
+    - Keyogging and Keystrokes
+        - The use of concealed program to record consecutive keystrokes
+        - extremely effective at capturing sensitive information such as credentials or conversations.
+        - PyWinHook library in python
+
+
 ## Directory Structure
 
 - basic-networking-tools
@@ -124,3 +137,9 @@
             - dirlister.py
             - environment.py
     - git-trojan.py
+
+- trojan-windows (trojaning-task-on-windows)
+    - keylogger.py
+    - screenshotter.py
+    - shell_exec.py
+    - sandbox_detect.py
