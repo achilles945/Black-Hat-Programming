@@ -94,6 +94,15 @@
         - extremely effective at capturing sensitive information such as credentials or conversations.
         - PyWinHook library in python
 
+### Exfiltration
+
+- To exfiltrate documents, spreadsheets, or other bits of data from the target system
+- Depending on the defense mechanism in place, this last part of your attack can prove to be tricky.
+- Encrypting and Decrypting Files
+- Email Exfiltration
+- File Transfer Exfiltration
+- Exfiltration via a Web Server
+- All together (exfil.py)
 
 ## Directory Structure
 
@@ -143,3 +152,10 @@
     - screenshotter.py
     - shell_exec.py
     - sandbox_detect.py
+
+- exfiltration
+    - cryptor.py
+    - email_exfil.py
+    - transmit_exfil.py
+    - paste_exfil.py
+    - exfil.py
